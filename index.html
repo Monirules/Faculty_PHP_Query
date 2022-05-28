@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Supervisor Website</title>
+</head>
+
+<body style="background-color:rgb(165, 169, 169);">
+
+    <div style="margin:auto ; width: 30%; padding-top: 5%;color: blue; background-color: rgb(219, 219, 218);">
+        <div style="margin-left:30%; padding-bottom: 10%;">
+            <h1>Student Add:</h1>
+            <form action="table.php" method="post" novalidate>
+                <input type="text" name="sname" placeholder="Student Name"><br><br>
+                <input type="text" name="fname" placeholder="First Name"><br><br>
+                <input type="text" name="lname" placeholder="Last Name"><br><br>
+                <input type="number" name="sid" placeholder="Student ID"><br><br>
+                <input type="number" name="attempt" placeholder="Attempt taken by Student"><br><br>
+                <input type="number" name="percentage" placeholder="Marks Percentage"><br>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <br><br>
+
+    <div style="margin-left: 10%; color:rgb(255, 21, 0)">
+        <h1>Quiz Menu:</h1>
+        1.<a href="listall.php"> List all attempts</a><br>
+        2.<a href="particular.php">List all attempts for a particular student</a><br>
+        3.<a href="100marks.php"> List all students (id, first and last name) who got 100% on their first attempt.</a><br>
+        4.<a href="50marks.php">List all students (id, first and last name) got less than 50% on their second attempt.</a><br>
+        5.<a href="delete.php">Delete all attempts for a particular student</a><br>
+        6.<a href="update.php"> Change the score for a quiz attempt</a><br>
+    </div>
+    
+</body>
+</html>
