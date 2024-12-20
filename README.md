@@ -14,7 +14,7 @@ A simple web application for faculty/supervisors to manage student quiz attempts
 
 ## Tech Stack
 - **Languages:** HTML, PHP, CSS
-- **Database:** MySQL (or similar relational database)
+- **Database:** MySQL 
 
 ## How to Run Locally
 1. Clone the repository:
